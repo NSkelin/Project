@@ -1,34 +1,31 @@
-# Quicklists
-# Projects 2910
+# CartCompanion
+A web application that we created for our course "Projects 2910" in the CIT program at BCIT. It is a simple app for keeping shopping lists online.
 
-This is a web application that we are creating for Projects Course 2910 in the CIT program at BCIt. It will help users to create lists for future purchases
-Implements mongodb and is programmed in Node JS, html, css.
-This is our main/live repository
+## Table of Contents
+- [Overview](#overview)
+- [ScreenShots](#screenshots)
+- [Documentation](#documentation)
+- [Built-With](#built-with)
 
-Dependencies:
-1. Install Node
-2. Go to the right directory to install node_modules
-3. npm install express --save
-4. npm install --save handlebars
-5. npm install file-system --save
-6. npm install mongodb --save
-7. npm install -g jsdoc
-8. npm install client-sessions
+## Overview
+CartCompanion is a simple web application for keeping shopping lists online. It was made as part of our school curriculum, where we worked together as small groups of six to each create a unique project. The goal was to gain experience in a work-like environment over the course of 4 weeks.
 
-Getting the documentation:
-1. navigate to the repository directory
-2. jsdoc server.js
+## ScreenShots
+As this app is no longer online, here are a few screenshots to get an idea of how it worked.
 
-Merging the main repository to your local repository:
-1. open git bash and move to the correct directory
-2. git fetch upstream
-3. git merge upstream/master
-4. merge any conflicting changes in an editor
-5. git push origin master
+![Quicklists login](https://user-images.githubusercontent.com/31994545/224851392-cd8e2bf8-61e3-4bf8-ba66-f6be41d01ee1.png)
+![Quicklists home](https://user-images.githubusercontent.com/31994545/224851394-a862e8b6-f3b0-4882-9de2-ba6b3446d521.png)
+![Quicklists list](https://user-images.githubusercontent.com/31994545/224851396-8d5c7f83-55f6-43de-8848-1ae075e7c0f9.png)
 
-Unit Testing:
-1. We are using "Jest" to test our code
-2. Download the following packages below
-3. npm install --save-dev jest
-4. npm install --save-dev chai
-5. npm install --save-dev chai-http
+## Documentation
+This app is documented with jsdocs.
+To generate the docs run:
+```jsdoc server.js```
+
+## Built-With
+The major libraries/frameworks used to make CartCompanion
+
+- MongoDB
+- HTML/CSS/JavaScript
+- Node.js/Express.js
+- Jest.js
